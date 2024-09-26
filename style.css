@@ -1,0 +1,72 @@
+/* Reiniciar márgenes y paddings para toda la página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #282936;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Estilos del body */
+
+.imagenPrincipio{
+    margin-top: 0;
+    background-image: url(/fotos/videogameWix.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+#Titulo{
+    background-color: white;
+    display: inline-block;
+    font-size: 100px;
+    margin-left: 60vh;
+    margin-top: 40vh;
+    color: black;
+}
+
+#ninio{
+    width: 50vw;
+}
+.apoc{
+    display: flex;
+}
+
+#no{
+    color: #69E363;
+    font-family: Oswal;
+    font-size: 55px;
+    margin-left: 38vh;
+    margin-top: 4%;
+
+}
+
+#pano{
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 33vh;
+    font-size: 20px;
+    
+    }
+
+.textoPer{
+    margin-top: 5%;
+    margin-left: 30%;
+    width: 40%;
+}
+
+#Perso{
+    color: #69E363;
+    font-size: 55px;
+    margin-bottom: 5%;
+}
+
+.personajes{
+    background-color: #FFF0EC;
+}
